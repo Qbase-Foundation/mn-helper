@@ -1,10 +1,10 @@
 #!/bin/bash
 
-CONFIGFOLDER='/root/.resqcore'
-COIN_NAME='RESQ'
+CONFIGFOLDER='/root/.qbasecore'
+COIN_NAME='Qbase'
 COIN_PATH='/usr/local/bin/'
-COIN_DAEMON='resqd'
-COIN_CLI='resq-cli'
+COIN_DAEMON='qbased'
+COIN_CLI='qbase-cli'
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -41,4 +41,4 @@ sleep 5
 
 $COIN_DAEMON -daemon -reindex
 
-echo -e "${GREEN}$COIN_NAME Masternode refreshed!${NC}"
+echo -e "${GREEN}$COIN_NAME Masternode Refreshed!${NC}"

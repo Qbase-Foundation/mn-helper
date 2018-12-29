@@ -1,15 +1,15 @@
 # mn-helpers
 
-**RESQ Refresh Script**
+**Qbase Refresh Script**
 
 Run following steps:
 
-1.) wget https://raw.githubusercontent.com/RESQ-Chain/mn-helper/master/resq-refresh.sh -O resq-refresh.sh
+1.) wget https://raw.githubusercontent.com/Qbase-Foundation/mn-helper/master/qbase-refresh.sh -O qbase-refresh.sh
 
-2.) chmod +x resq-refresh.sh
+2.) chmod +x qbase-refresh.sh
 
-3.) ./resq-refresh.sh
+3.) ./qbase-refresh.sh
 
 
 Check status with:
-resq-cli getinfo && resq-cli masternode status
+qbase-cli getinfo && qbase-cli masternode status
